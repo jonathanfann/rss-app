@@ -1,5 +1,5 @@
 # RSS Reader App
 
-Used For Uploading Static Site to Neocities
+Used For Generating and Uploading RSS App Static Site to Neocities
 
 ### WIP
