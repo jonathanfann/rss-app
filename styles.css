@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+
+:root {
+  --bg-color: #e3e3e3;
+  --text-color: #000;
+  --cell-bg: #bbb;
+  --cell-revealed: #fff;
+  --mine-bg: rgb(233, 80, 80);
+  --action-color: DodgerBlue;
+  --action-hover: Salmon;
+  --action-hover-border: Salmon;
+  --slider-bg: SlateGray;
+  --timer-color: Salmon;
+  --flag-color: SlateGray;
+}
+
+.dark-mode {
+  --bg-color: #222;
+  --text-color: #fff;
+  --cell-bg: #444;
+  --cell-revealed: #666;
+  --mine-bg: #900;
+  --action-color: SteelBlue;
+  --action-hover: DeepSkyBlue;
+  --action-hover-border: SkyBlue;
+  --timer-color: GoldenRod;
+  --flag-color: GoldenRod;
+}
+
+body {
+  font-family: "Tiny5", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.1s, color 0.1s;
+}

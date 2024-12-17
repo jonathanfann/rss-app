@@ -5,7 +5,7 @@ working_directory = os.getcwd()
 version_file_path = f'{working_directory}/version.txt'
 html_file_path = f'{working_directory}/index.html'
 html_generated_path = f'{working_directory}/index-generated.html'
-js_file_path = f'{working_directory}/game.js'
+js_file_path = f'{working_directory}/scripts.js'
 css_file_path = f'{working_directory}/styles.css'
 
 def update_html():
